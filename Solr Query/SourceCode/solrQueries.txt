@@ -4,7 +4,16 @@ solrctl instancedir --create solrTweets
 curl 'http://localhost:8983/solr/solrTweets/update?commit=true' --data-binary @tweets.csv -H 'Content-type:application/csv'
 
 1. Top 10 users with most followers 
+https://github.com/JagadeeshMaroju/BDP-Project/blob/master/Solr%20Query/Documentation/q1.PNG
+
 2. Top 10 users in the USA with most status count
+https://github.com/JagadeeshMaroju/BDP-Project/blob/master/Solr%20Query/Documentation/q2.PNG
+
 3. Top 50 users in the USA with most friends
+https://github.com/JagadeeshMaroju/BDP-Project/blob/master/Solr%20Query/Documentation/q3.PNG
+
 4. Users who teweeted about democarts 
+https://github.com/JagadeeshMaroju/BDP-Project/blob/master/Solr%20Query/Documentation/q4.PNG
+
 5. Uesrs who tweeted about republicans
+https://github.com/JagadeeshMaroju/BDP-Project/blob/master/Solr%20Query/Documentation/q5.PNG

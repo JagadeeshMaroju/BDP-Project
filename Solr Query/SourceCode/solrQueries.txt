@@ -1,0 +1,10 @@
+solrctl instancedir --generate /tmp/solrTweets
+solrctl instancedir --create solrTweets /tmp/solrTweets
+solrctl instancedir --create solrTweets
+curl 'http://localhost:8983/solr/solrTweets/update?commit=true' --data-binary @tweets.csv -H 'Content-type:application/csv'
+
+1. Top 10 users with most followers 
+2. Top 10 users in the USA with most status count
+3. Top 50 users in the USA with most friends
+4. Users who teweeted about democarts 
+5. Uesrs who tweeted about republicans
